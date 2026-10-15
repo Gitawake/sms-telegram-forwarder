@@ -1,0 +1,23 @@
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+*.jks
+*.keystore
+.DS_Store
+
+# Local credentials, release keys, device data and build outputs
+signing/
+keystore.properties
+.env
+.env.*
+*.p12
+*.pem
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+*.apk
+*.aab
+*.log
