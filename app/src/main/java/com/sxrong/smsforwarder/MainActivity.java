@@ -191,7 +191,7 @@ public class MainActivity extends AppCompatActivity {
         page.addView(button("查看 Telegram 官方说明",false,v -> startActivity(new Intent(Intent.ACTION_VIEW,
                 android.net.Uri.parse("https://core.telegram.org/bots/api#getupdates")))),lp(-1,56));
         section(page,"消息记录","已转发记录保存在本机，可在已转发页面清空。卸载应用会删除记录。旧版已成功发送的短信无法补回。网络超时重试可能产生重复消息。");
-        text(page,"短信转发 1.4 · Material 3",12,true).setPadding(0,dp(20),0,0);
+        text(page,"短信转发 1.4.1 · Material 3",12,true).setPadding(0,dp(20),0,0);
         setConfigurationEditing(false);
     }
     private void select(int next) {

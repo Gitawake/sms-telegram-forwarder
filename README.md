@@ -55,7 +55,7 @@ export ANDROID_HOME=/opt/homebrew/share/android-commandlinetools
 | `ANDROID_KEY_ALIAS` | 签名别名 |
 | `ANDROID_KEY_PASSWORD` | 签名密钥密码 |
 
-先更新 `versionName` 和递增 `versionCode`，推送提交后再推送对应标签，例如 `v1.4.0`。不要把签名文件、密码、实际 Telegram Token 或手机数据提交到仓库。Fork 此仓库后需要配置自己的签名 Secrets；不同签名的 APK 无法相互覆盖安装。
+先更新 `versionName` 和递增 `versionCode`，推送提交后再推送对应标签，例如 `v1.4.1`。不要把签名文件、密码、实际 Telegram Token 或手机数据提交到仓库。Fork 此仓库后需要配置自己的签名 Secrets；不同签名的 APK 无法相互覆盖安装。
 
 本机正式构建可设置 `ANDROID_KEYSTORE_PATH`、`ANDROID_KEYSTORE_PASSWORD`、`ANDROID_KEY_ALIAS`、`ANDROID_KEY_PASSWORD` 后运行 `./gradlew :app:assembleRelease`。未提供签名配置时生成的是未签名 APK，不应用于公开分发。
 
